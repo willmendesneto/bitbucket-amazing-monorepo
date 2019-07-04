@@ -2,7 +2,11 @@
 
 > Improving Monorepo projects for Bitbucket users 😎
 
-Features:
+### Why
+
+Meaningful changelogs, and automated migration docs are still a challenge in large repositories. This chrome extension was created to assist teams who are managing codebases in a monorepo repository.
+
+### Features
 
 - [x] Filter Compare items by package changes;
 - [x] Copy file name;
