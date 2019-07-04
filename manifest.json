@@ -1,0 +1,30 @@
+{
+    "manifest_version": 2,
+    "name": "BitBucket Monorepo Refined",
+    "homepage_url": "https://github.com/dzhavat/bitbucket-monorepo-refined",
+    "description": "Say hello for a better experience in your Bitbucket monorepo",
+    "version": "1.0.0",
+    "author": "Will Mendes",
+    "content_scripts": [
+        {
+            "matches": [
+                "*://bitbucket.org/*"
+            ],
+            "css": [
+                "src/style.css"
+            ],
+            "js": [
+                "src/init.js"
+            ],
+            "run_at": "document_end"
+        }
+    ],
+    "permissions": [
+        "debugger",
+        "tabs",
+        "activeTab",
+        "*://bitbucket.org/*",
+        "*://*.bitbucket.org/*",
+        "*://*.atlassian.com/*"
+    ]
+}

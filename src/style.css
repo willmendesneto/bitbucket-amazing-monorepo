@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+.compare-filter-file-changes-wrapper {
+  display: block;
+}
+
+.compare-filter-text {
+  padding: 5px;
+  border: 2px solid #EAEAEA;
+  border-radius: 2px;
+  margin: 5px 10px 5px 0;
+  color: #333;
+  width: 50%;
+}
+
+#compare-filter-text-button {
+  align-items: baseline;
+  box-sizing: border-box;
+  display: inline-flex;
+  font-size: inherit;
+  font-style: normal;
+  font-weight: normal;
+  max-width: 100%;
+  text-align: center;
+  white-space: nowrap;
+  cursor: default;
+  height: 2.28571em;
+  line-height: 2.28571em;
+  vertical-align: middle;
+  width: auto;
+  color: rgb(255, 255, 255) !important;
+  border-width: 0px;
+  text-decoration: none;
+  background: rgb(0, 82, 204);
+  border-radius: 3px;
+  padding: 0px 8px;
+  transition: background 0.1s ease-out 0s, box-shadow 0.15s cubic-bezier(0.47, 0.03, 0.49, 1.38) 0s;
+  outline: none !important;
+}
+
+.copy-file-path {
+  margin-left: 5px;
+  margin-top: 2px;
+  vertical-align: top;
+  background-color: #fff;
+  border-color: #9d9fc0;
+  color: #3a3b81;
+}
